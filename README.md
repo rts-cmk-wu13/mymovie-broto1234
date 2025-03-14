@@ -2,7 +2,7 @@
 
 **Dynamisk web**
 
-Check out the live website here: [Netlify](https://mymoveapp.netlify.app/)
+Check out the live website here: [Netlify](https://themovie-db-app.netlify.app/)
 
 # Web applikation - MyMovie
 

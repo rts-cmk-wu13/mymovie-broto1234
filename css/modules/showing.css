@@ -10,9 +10,12 @@
   display: none;
 }
 
-.showing--img {
-  /* max-width: 26rem; */
-  /* height: auto; */
+.showingCard__heading {
+  font-size: 0.9rem;
+}
+
+.showing--imdb {
+  font-size: 0.6rem;
 }
 
 @media screen and (min-width: 913px) {
@@ -20,10 +23,19 @@
   .showing__cards {
     justify-content: space-between;
   }
-
+  
   .showing--img {
     max-width: 15rem;
     height: auto;
+  }
+
+  .showingCard__heading {
+    font-size: 1.3rem;
+  }
+  
+
+  .showing--imdb {
+    font-size: 1rem;
   }
 }
 

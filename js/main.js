@@ -29,7 +29,7 @@ fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', {
                   </a>
                 </div>
                 <h3 class="showingCard__heading"> ${item.original_title}</h3>
-                <p class="disply--flex imdb--style"><img class="starClock--img" src="images/Star.png" alt="star"> <span>${item.vote_average.toFixed(2)}/10 IMDb</span></p>
+                <p class="disply--flex imdb--style"><img class="starClock--img" src="images/Star.png" alt="star"> <span class="showing--imdb">${item.vote_average.toFixed(2)}/10 IMDb</span></p>
                 </li>
               `
             ).join('')}

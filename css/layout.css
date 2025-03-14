@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.4rem;
+  gap: 0.3rem;
 }
 
 .grid--two {
@@ -21,7 +21,7 @@ body {
 .grid--three {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.4rem;
+  gap: 0.3rem;
 }
 
 .grid--five {
@@ -32,7 +32,7 @@ body {
 
 
 @media screen and (min-width: 413px) {
-
+  
   .justify--start {
     justify-content: start;
   }
