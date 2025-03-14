@@ -39,7 +39,7 @@ a {
 .para {
   color: var(--clr-para);
   font-size: 0.9rem;
-  margin-block: 0.5rem;
+  margin-block-start: 0.5rem;
 }
 
 .card--img {
@@ -47,16 +47,27 @@ a {
 }
 
 .starClock--img {
-  width: 1.2rem;
+  width: 0.7rem;
   height: auto;
 }
 
 p.imdb--style {
   margin-block: 0.4rem;
   justify-content: start;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
 }
 
 .toggle--style {
   display: none;
+}
+
+@media screen and (min-width: 913px) {
+  
+  .starClock--img {
+    width: 1.5rem;
+  }
+  p.imdb--style {
+    gap: 0.5rem;
+  }
+  
 }

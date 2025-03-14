@@ -5,8 +5,8 @@
 }
 
 svg {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   /* fill: red;
   opacity: 0.5; */
 } 
@@ -14,3 +14,12 @@ svg {
 /* img {
   filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(120deg);
 } */
+
+@media screen and (min-width: 913px) {
+
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+}
