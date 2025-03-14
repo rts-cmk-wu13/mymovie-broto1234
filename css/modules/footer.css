@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  /* fill: red;
+  opacity: 0.5; */
+} 
+
+/* img {
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(120deg);
+} */

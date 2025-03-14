@@ -46,6 +46,8 @@ fetch("https://api.themoviedb.org/3/trending/movie/week", {
     accept: 'application/json',
     Authorization: 'Bearer //indsæt din token her...'
   }
+ }
+)
 // Det henter alle film som trender i denne uge.
 ```
 

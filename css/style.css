@@ -1,0 +1,13 @@
+@import url("/css/base.css");
+@import url("/css/variables.css");
+@import url("/css/layout.css");
+@import url("/css/darkmode.css");
+
+
+@import url("/css/modules/header.css");
+@import url("/css/modules/showing.css");
+@import url("/css/modules/popular.css");
+@import url("/css/modules/footer.css");
+
+
+@import url("/css/modules/detail.css");
