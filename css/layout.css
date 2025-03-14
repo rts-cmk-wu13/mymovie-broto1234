@@ -1,0 +1,52 @@
+
+body {
+  width: 80%;
+  margin: 2rem auto 0;
+}
+
+.disply--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.grid--two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  gap: 0.3rem;
+}
+
+.grid--three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+
+.grid--five {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.3rem;
+}
+
+
+@media screen and (min-width: 413px) {
+
+  .justify--start {
+    justify-content: start;
+  }
+
+  .disply--flex, .grid--two, .grid--three, .grid--five {
+    gap: 1rem;
+  }
+  
+}
+
+@media screen and (min-width: 913px) {
+
+  .disply--flex, .grid--two, .grid--three, .grid--five {
+    gap: 2rem;
+  }
+  
+}

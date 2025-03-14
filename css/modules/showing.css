@@ -1,0 +1,32 @@
+.showing {
+  margin-block: 1rem;
+}
+
+.showing__top {
+  margin-block-end: 1rem;
+}
+
+.showing__card {
+  display: none;
+}
+
+.showing--img {
+  /* max-width: 26rem; */
+  /* height: auto; */
+}
+
+@media screen and (min-width: 913px) {
+  
+  .showing__cards {
+    justify-content: space-between;
+  }
+
+  .showing--img {
+    max-width: 15rem;
+    height: auto;
+  }
+}
+
+
+
+

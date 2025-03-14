@@ -1,0 +1,25 @@
+
+/* Dark mode styles */
+:root {
+  color-scheme: dark light;
+  --dark-color: hsl(0 0% 10%);
+  --light-color: hsl(0 0% 97%);
+
+}
+
+[data-mode="dark"] {
+  color-scheme: dark;
+}
+
+[data-mode="light"] {
+  color-scheme: light;
+}
+
+html, button, input, textarea, a, .detail__main {
+  color: light-dark(var(--dark-color), var(--light-color));
+  background-color: light-dark(var(--light-color), var(--dark-color));
+}
+
+input, button, textarea {
+  border:2px solid light-dark(var(--dark-color), var(--light-color));
+}

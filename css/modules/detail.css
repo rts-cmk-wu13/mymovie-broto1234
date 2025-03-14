@@ -1,0 +1,78 @@
+.detail__arrow, .detail__btn {
+  position: absolute;
+  top: 10%;
+}
+
+.detail__arrow {
+  color: var(--clr-white);
+  cursor: pointer;
+  left: 20%;
+}
+
+.detail__arrow:hover {
+  color: red;
+}
+
+.detail__btn {
+  right: 20%;
+}
+
+.play--trailer{
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.detail__main {
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+
+.detail__genres {
+  margin-block-start: 0.8rem;
+}
+
+.detail__descipt {
+  margin-block: 0.8rem;
+}
+
+.cast {
+  margin-block: 3rem;
+}
+
+.cast__top {
+  margin-block-end: 1rem;
+}
+
+.cast__card {
+  display: none;
+}
+
+.cast__card .div--img {
+  /* width: auto; */
+  height: 5rem;
+}
+
+.cast__card p {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 413px) {
+  
+  .detail__main {
+    padding: 1.5rem;
+  }
+
+  .cast__card .div--img {
+    /* width: auto; */
+    height: 12rem;
+  }
+  
+}
