@@ -1,10 +1,16 @@
-![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/UgKBWXTI)
-
-**Dynamisk web**
+**Dynamic web**
 
 Check out the live website here: [Netlify](https://themovie-db-app.netlify.app/)
 
-# Web applikation - MyMovie
+# Web application - MyMovie
+
+Fetch API: The goal of the assignment is to show list display and detail display using url parameters (query strings). It fetches all movies trending this week.
+
+Dark mood: The switch button in the upper right corner must switch between dark mode and light mode. The application must remember my preferred color choice (e.g. in localStorage), so that the user is presented with the same experience the next time the application is used.
+
+
+![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/UgKBWXTI)
+
 
 Du skal i praktisk web perioden lave applikationene my movie. Data skal hentes fra "The Movie Database".
 
@@ -24,12 +30,6 @@ Der skal implementeres darkmode. Switch-knappen i øverste højre hjørne skal s
 
 ### **Aflevering**: 
 Du afleverer ved at lave et **pull-request** hvor du sætter din lærer på som *reviewer*. Vent med at lave et pull-request, til du er færdig med opgaven. 
-
-### **Deadline**: 
-Opgaven skal afleveres **senest torsdag den 14. marts 2025.** 
-
-### **Feedback**: 
-Du får mundtlig feedback fra din lærer i en 1-til-1 session, hvor i gennemgår dit projekt.
 
 ### **Ekstraopgaver**
 Hvis du bliver hurgigt færdig, må du gerne fx. tilføje ekstra views eller features. Gå på opdagelse i api'et og prøv at se om du kan finde nogle interessante data at præsentere.
